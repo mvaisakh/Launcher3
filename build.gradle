@@ -141,8 +141,7 @@ android {
 }
 
 repositories {
-    maven { url "../../../prebuilts/fullsdk-darwin/extras/android/m2repository" }
-    maven { url "../../../prebuilts/fullsdk-linux/extras/android/m2repository" }
+    maven { url'https://jitpack.io' }
     mavenCentral()
     jcenter()
     google()
